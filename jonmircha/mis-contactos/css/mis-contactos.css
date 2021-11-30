@@ -1,0 +1,209 @@
+*
+{
+    border: 0;
+    margin: 0;
+}
+
+@font-face
+{
+    font-family: "Nunito";
+    src: url("../fonts/Nunito-Regular.ttf");
+    src: url("../fonts/Nunito-Regular.ttf") format("truetype");
+}
+
+a
+{
+    color: #f60;
+    text-decoration:none;
+}
+
+a:hover
+{
+    color: #7bbfd5;
+}
+
+body
+{
+    background: #fff;
+    color: #212121;
+    font-family: "Nunito",sans-serif;
+    font-size: 16px;
+    
+}
+
+fieldset
+{
+    border: .1em solid #f60;
+    border-radius: .5em;
+    padding: 1em;
+}
+
+form
+{
+    display:none;
+}
+
+form div
+{
+    margin:.5em;
+}
+
+input[type="checkbox"], input[type="radio"], select
+{
+    background: #eee;
+    cursor: pointer;
+}
+
+input[type="date"],input[type="email"], input[type="number"], input[type="text"]
+{
+    background: #eee;
+    border-radius: .25em;
+    color: #f60;
+    font-size: 1em;
+    padding: .25em;
+}
+
+input[type="date"]:focus,input[type="email"]:focus, input[type="number"]:focus, input[type="text"]:focus
+{
+    background: #c6ecf9;
+}
+
+input[type="email"]:disabled
+{
+    background: transparent;
+    color: #ccc;
+}
+
+input[type="file"]
+{
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    width: 150px;
+}
+
+input[type="submit"]
+{
+    background: #ff9a55;
+    border-radius: 0 .25em;
+    color: #500;
+    font-family: "Nunito";
+    font-size: 1.5em;
+}
+
+input[type="submit"]:hover
+{
+    background: #7bbfd5;
+    border-radius: .25em 0;
+    color: #000;
+    cursor: pointer;
+}
+
+label
+{
+    cursor:pointer;
+    font-size: 1.2em;
+}
+
+nav, #principal
+{
+    -ms-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: inline-block;
+    font-size: 1em;
+    margin: .25em;
+    text-align: left;
+    width: 20%;
+    vertical-align: top;
+}
+
+table
+{
+    border: .1em solid #f60;
+    border-radius: 1em;
+    cursor: default;
+    font-family: Helvetica, Verdana;
+    font-size: .75em;
+    padding: .25em;
+    width: 100%;
+}
+
+table td
+{
+    border: .1em solid #212121;
+    border-radius: .5em;
+    word-wrap: break-word;
+    text-align: center;
+}
+
+table img
+{
+    max-width:50%;
+}
+
+table tr
+{
+    background: powderblue;
+}
+
+table thead tr
+{
+    background: transparent;
+}
+
+table tr:nth-child(even)
+{
+    background: darksalmon;
+}
+
+ul
+{
+    list-style: none;
+}
+
+#contenido
+{
+    margin: 0 auto;
+    text-align: center;
+}
+
+#principal
+{
+    width:75%;
+}
+
+.adjuntar-archivo
+{
+    background: #eee url(../img/boton-buscar.png) no-repeat 100% 1px;
+    border:thin solid #f60;
+    display: inline;
+    text-align: right;
+    cursor:pointer;
+}
+
+.adjuntar-archivo:hover
+{
+    background: #c6ecf9 url(../img/boton-buscar2.png) no-repeat 100% 1px;
+}
+
+.cambio
+{
+    -ms-transition: all 2.5s ease-out;
+    -moz-transition: all 2.5s ease-out;
+    -o-transition: all 2.5s ease-out;
+    -webkit-transition: all 2.5s ease-out;
+    transition: all 2.5s ease-out;
+}
+
+.mensajes
+{
+    background: yellow;
+    border-radius: .5em;
+    color: #000;
+    font-family:Helvetica, Verdana;
+    font-size: 1em;
+    padding: .5em;
+}

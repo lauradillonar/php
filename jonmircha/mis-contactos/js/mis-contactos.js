@@ -10,7 +10,10 @@ function helloGit() {
     alert("hello Git");
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> develop
 =======
 >>>>>>> develop
 }
@@ -18,6 +21,9 @@ function helloGit() {
 function helloWorld() {
     alert("Hello World");
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> develop
+=======
 >>>>>>> develop
 =======
 >>>>>>> develop

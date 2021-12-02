@@ -9,3 +9,7 @@ function efectosMisContactos() {
 function helloGit() {
     alert("hello Git");
 }
+
+function helloWorld() {
+    alert("Hello World");
+}

@@ -19,7 +19,7 @@ function helloGit() {
 }
 
 function helloWorld() {
-    alert("Hello World");
+    console.log("Hello World");
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> develop

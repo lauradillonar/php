@@ -9,10 +9,16 @@ function efectosMisContactos() {
 function helloGit() {
     alert("hello Git");
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> develop
 }
 
 function helloWorld() {
     alert("Hello World");
+<<<<<<< HEAD
+>>>>>>> develop
+=======
 >>>>>>> develop
 }

@@ -8,4 +8,11 @@ function efectosMisContactos() {
 
 function helloGit() {
     alert("hello Git");
+<<<<<<< HEAD
+=======
+}
+
+function helloWorld() {
+    alert("Hello World");
+>>>>>>> develop
 }
